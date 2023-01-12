@@ -17,6 +17,7 @@ pacman::p_load(rvest,
 # negate %in%
 "%notin%" = Negate("%in%")
 
+
 # Web scraping
 website_url = "https://pressgallery.house.gov/member-data/members-official-twitter-handles"
 website = read_html(website_url)
